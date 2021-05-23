@@ -1,0 +1,53 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?d671ef60859c824f31ad7d3ba871691d") format("truetype"),
+url("./flaticon.woff?d671ef60859c824f31ad7d3ba871691d") format("woff"),
+url("./flaticon.woff2?d671ef60859c824f31ad7d3ba871691d") format("woff2"),
+url("./flaticon.eot?d671ef60859c824f31ad7d3ba871691d#iefix") format("embedded-opentype"),
+url("./flaticon.svg?d671ef60859c824f31ad7d3ba871691d#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-cctv:before {
+    content: "\f101";
+}
+.flaticon-plumber:before {
+    content: "\f102";
+}
+.flaticon-tools-and-utensils:before {
+    content: "\f103";
+}
+.flaticon-wrench:before {
+    content: "\f104";
+}
+.flaticon-carpenter:before {
+    content: "\f105";
+}
+.flaticon-trowel:before {
+    content: "\f106";
+}
+.flaticon-maintenance:before {
+    content: "\f107";
+}
+.flaticon-air-conditioning:before {
+    content: "\f108";
+}
+.flaticon-paint-roller:before {
+    content: "\f109";
+}
+.flaticon-varnish:before {
+    content: "\f10a";
+}
+.flaticon-broom:before {
+    content: "\f10b";
+}

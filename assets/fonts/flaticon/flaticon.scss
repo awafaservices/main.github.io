@@ -1,0 +1,69 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?d671ef60859c824f31ad7d3ba871691d") format("truetype"),
+url("./flaticon.woff?d671ef60859c824f31ad7d3ba871691d") format("woff"),
+url("./flaticon.woff2?d671ef60859c824f31ad7d3ba871691d") format("woff2"),
+url("./flaticon.eot?d671ef60859c824f31ad7d3ba871691d#iefix") format("embedded-opentype"),
+url("./flaticon.svg?d671ef60859c824f31ad7d3ba871691d#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "cctv": "\f101",
+    "plumber": "\f102",
+    "tools-and-utensils": "\f103",
+    "wrench": "\f104",
+    "carpenter": "\f105",
+    "trowel": "\f106",
+    "maintenance": "\f107",
+    "air-conditioning": "\f108",
+    "paint-roller": "\f109",
+    "varnish": "\f10a",
+    "broom": "\f10b",
+);
+
+.flaticon-cctv:before {
+    content: map-get($flaticon-map, "cctv");
+}
+.flaticon-plumber:before {
+    content: map-get($flaticon-map, "plumber");
+}
+.flaticon-tools-and-utensils:before {
+    content: map-get($flaticon-map, "tools-and-utensils");
+}
+.flaticon-wrench:before {
+    content: map-get($flaticon-map, "wrench");
+}
+.flaticon-carpenter:before {
+    content: map-get($flaticon-map, "carpenter");
+}
+.flaticon-trowel:before {
+    content: map-get($flaticon-map, "trowel");
+}
+.flaticon-maintenance:before {
+    content: map-get($flaticon-map, "maintenance");
+}
+.flaticon-air-conditioning:before {
+    content: map-get($flaticon-map, "air-conditioning");
+}
+.flaticon-paint-roller:before {
+    content: map-get($flaticon-map, "paint-roller");
+}
+.flaticon-varnish:before {
+    content: map-get($flaticon-map, "varnish");
+}
+.flaticon-broom:before {
+    content: map-get($flaticon-map, "broom");
+}
