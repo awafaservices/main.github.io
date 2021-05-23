@@ -202,8 +202,8 @@ span.theme_span {
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
-}
+    background-position: center;    
+    background-image: url(../../images/landing2.jpg);}
 
 @media (min-width: 1200px) {
     .container {
@@ -1632,9 +1632,9 @@ textarea.form_control {
         width: 230px; 
         height: 40px;
     }
-    .single_slider bg_image
+    .bg_image
     {
-        width: 1424px; height: 800px;
+        background-image: url(../../images/landing2.jpg); width: 1424px; height: 800px;width: 1424px; height: 800px;
     }
 }
 
