@@ -1685,7 +1685,7 @@ textarea.form_control {
     z-index: 337;
     width: 100%;
     top: 0px;    
-    background: rgba(255, 255, 255, 0.1);
+   /* background: rgba(255, 255, 255, 0.1); */
 }
 .onova_header_2.sticky{
     position: fixed;
