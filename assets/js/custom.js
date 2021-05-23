@@ -69,6 +69,9 @@
     $(".menu_icon").on('click', function (event) {
         $(".sidenav_menu").toggleClass("active");
     });
+    $('.sidebar-submenu ').click(function(){
+      $(".sidenav_menu").toggleClass("collapse");
+  });
     $.sidebarMenu($('.sidebar-menu'))
     /*----------------------
     Mobile menu 
