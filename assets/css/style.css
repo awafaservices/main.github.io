@@ -203,7 +203,7 @@ span.theme_span {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;    
-    background-image: url(../../images/landing2.jpg);}
+    background-image: url(../../images/landing3.jpg);}
 
 @media (min-width: 1200px) {
     .container {
@@ -1634,7 +1634,7 @@ textarea.form_control {
     }
     .bg_image
     {
-        background-image: url(../../images/landing2.jpg); width: 1424px; height: 800px;width: 1424px; height: 800px;
+        background-image: url(../../images/landing2.jpg); width: 1424px; height: 800px;
     }
 }
 
