@@ -211,6 +211,12 @@ span.theme_span {
     }
 }
 
+.slider_only
+{
+    
+    background-image: url(../../images/landing3.jpg);
+}
+
 /*
 	End Default css 
 */
@@ -1632,7 +1638,7 @@ textarea.form_control {
         width: 230px; 
         height: 40px;
     }
-    .bg_image
+    .slider_only
     {
         background-image: url(../../images/landing2.jpg); width: 1424px; height: 800px;
     }
