@@ -32,10 +32,13 @@
         Scroll top js
     ------------------------*/
     $(window).on('scroll', function() {
-      if ($(this).scrollTop() > 100) {
-          $('#scroll_up').fadeIn();
-      } else {
-          $('#scroll_up').fadeOut();
+      if(!( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) )) 
+      {
+          if ($(this).scrollTop() > 100) {
+              $('#scroll_up').fadeIn();
+          } else {
+              $('#scroll_up').fadeOut();
+          }
       }
     });
     $('#scroll_up').on('click', function() {
